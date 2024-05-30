@@ -1531,7 +1531,7 @@ exports[`DevTools - TimeTravel Snapshot list Snapshot history with actions shoul
         >
           <div
             class="internal-jotai-devtools-panel-resize-handle-content"
-            style="border-radius: 2rem; vertical-align: middle; height: 20%; min-height: calc(3.125rem * var(--mantine-scale)); max-height: calc(6.25rem * var(--mantine-scale));"
+            style="border-radius: 32px; vertical-align: middle; height: 20%; min-height: calc(3.125rem * var(--mantine-scale)); max-height: calc(6.25rem * var(--mantine-scale));"
           />
         </div>
       </div>
@@ -1633,13 +1633,13 @@ exports[`DevTools - TimeTravel Snapshot list Snapshot history with actions shoul
                       <svg
                         class="tabler-icon tabler-icon-file-code "
                         fill="none"
-                        height="0.9rem"
+                        height="14.4px"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="1.75"
                         viewBox="0 0 24 24"
-                        width="0.9rem"
+                        width="14.4px"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
@@ -1681,13 +1681,13 @@ exports[`DevTools - TimeTravel Snapshot list Snapshot history with actions shoul
                       <svg
                         class="tabler-icon tabler-icon-file-diff "
                         fill="none"
-                        height="0.9rem"
+                        height="14.4px"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="1.75"
                         viewBox="0 0 24 24"
-                        width="0.9rem"
+                        width="14.4px"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
@@ -1767,18 +1767,18 @@ exports[`DevTools - TimeTravel Snapshot list Snapshot history with actions shoul
                   <span
                     class="m_a74036a"
                     data-position="left"
-                    style="margin-right: 0.325rem; transform: rotate(130deg);"
+                    style="margin-right: 5.2px; transform: rotate(130deg);"
                   >
                     <svg
                       class="tabler-icon tabler-icon-rotate-2 "
                       fill="none"
-                      height="0.8rem"
+                      height="12.8px"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
                       viewBox="0 0 24 24"
-                      width="0.8rem"
+                      width="12.8px"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
@@ -2443,7 +2443,7 @@ exports[`DevTools - TimeTravel Snapshot list should render time travel without a
         >
           <div
             class="internal-jotai-devtools-panel-resize-handle-content"
-            style="border-radius: 2rem; vertical-align: middle; height: 20%; min-height: calc(3.125rem * var(--mantine-scale)); max-height: calc(6.25rem * var(--mantine-scale));"
+            style="border-radius: 32px; vertical-align: middle; height: 20%; min-height: calc(3.125rem * var(--mantine-scale)); max-height: calc(6.25rem * var(--mantine-scale));"
           />
         </div>
       </div>

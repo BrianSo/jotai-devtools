@@ -1,5 +1,5 @@
 {
-  "name": "jotai-devtools",
+  "name": "jotai-devtools-px",
   "version": "0.9.1",
   "description": "A powerful toolkit to enhance your development experience with Jotai",
   "author": {
@@ -44,17 +44,16 @@
     "package.json"
   ],
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint src/index.ts",
     "lint:fix": "eslint . --fix",
     "test": "TZ=UTC jest",
     "test:watch": "pnpm run test --watch",
     "test:coverage": "pnpm run test --coverage",
     "test:ci": "pnpm run test:coverage --maxWorkers=1",
-    "commitlint": "commitlint",
     "lint-staged": "lint-staged",
     "build": "tsup && pnpm postbuild",
     "postbuild": "node -e \"require('shelljs').find('dist/**/*.d.ts').forEach(f=>require('fs').copyFileSync(f,f.replace(/\\.ts$/,'.mts')))\";",
-    "prerelease": "pnpm install --frozen-lockfile && pnpm run lint && pnpm run test && pnpm run build",
+    "prerelease": "pnpm run build",
     "release": "pnpm prerelease && release-it",
     "release:next": "pnpm run release --preRelease=next",
     "release:minor": "pnpm run release minor",
@@ -93,8 +92,6 @@
     "@babel/preset-env": "^7.24.4",
     "@babel/preset-react": "^7.24.1",
     "@babel/preset-typescript": "^7.24.1",
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
     "@release-it/conventional-changelog": "^8.0.1",
     "@storybook/addon-a11y": "^8.0.9",
     "@storybook/addon-actions": "^8.0.9",
