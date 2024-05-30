@@ -1,7 +1,7 @@
 "use strict";Object.defineProperty(exports, "__esModule", {value: true});
 
-var _chunkMETDOK4Ucjsjs = require('./chunk-METDOK4U.cjs.js');
+var _chunkQTFXD7MVcjsjs = require('./chunk-QTFXD7MV.cjs.js');
 require('./chunk-5K6HCVT2.cjs.js');
 
 
-exports.InternalDevTools = _chunkMETDOK4Ucjsjs.InternalDevTools;
+exports.InternalDevTools = _chunkQTFXD7MVcjsjs.InternalDevTools;

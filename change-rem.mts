@@ -19,7 +19,7 @@ function convertRemToPx(directory) {
 
         if (stats.isDirectory()) {
           convertRemToPx(filePath);
-        } else if (stats.isFile() && (file.endsWith('.tsx') || file.endsWith('.css'))) {
+        } else if (stats.isFile() && (file.endsWith('.tsx') || file.endsWith('.ts') || file.endsWith('.css'))) {
           fs.readFile(filePath, 'utf8', (err, data) => {
             if (err) {
               console.error(`Error reading file ${filePath}:`, err);

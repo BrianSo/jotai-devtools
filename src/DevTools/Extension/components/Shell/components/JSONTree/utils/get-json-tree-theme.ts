@@ -51,7 +51,7 @@ export const getJsonTreeTheme = (base16Theme: Base16Theme): StylingConfig => {
       return {
         style: {
           ...style,
-          padding: '0.625rem',
+          padding: '10px',
           margin: 0,
         },
       };

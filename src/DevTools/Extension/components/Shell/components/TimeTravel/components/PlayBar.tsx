@@ -6,7 +6,7 @@ import {
   Slider,
   SliderProps,
   Sx,
-  rem,
+  px,
 } from '@mantine/core';
 import {
   IconChevronLeft,
@@ -46,12 +46,12 @@ const sliderStyles: SliderProps['styles'] = (theme) => ({
       theme.colorScheme === 'dark'
         ? theme.colors.gray[5]
         : theme.colors.gray[7],
-    borderWidth: rem(0),
+    borderWidth: px(0),
   },
   thumb: {
-    height: rem(14),
-    width: rem(14),
-    borderWidth: rem(3),
+    height: px(14),
+    width: px(14),
+    borderWidth: px(3),
     borderColor:
       theme.colorScheme === 'dark'
         ? theme.colors.gray[6]
