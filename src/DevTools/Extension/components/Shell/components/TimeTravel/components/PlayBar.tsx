@@ -61,7 +61,7 @@ const sliderStyles: SliderProps['styles'] = (theme) => ({
 
 const playBarWrapperStyles: Sx = (theme) => ({
   height: 56,
-  borderTop: `0.09rem solid ${
+  borderTop: `1.44px solid ${
     theme.colorScheme === 'dark' ? theme.colors.dark[4] : theme.colors.gray[3]
   }`,
   display: 'flex',

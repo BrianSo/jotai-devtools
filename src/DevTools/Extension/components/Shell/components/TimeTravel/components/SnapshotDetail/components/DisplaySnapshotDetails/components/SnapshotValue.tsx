@@ -38,13 +38,13 @@ export const SnapshotValue = (props: SnapshotValueProps): JSX.Element => {
         <Tabs.List>
           <Tabs.Tab
             value="state"
-            icon={<IconFileCode size="0.9rem" stroke="1.75" />}
+            icon={<IconFileCode size="14.4px" stroke="1.75" />}
           >
             State
           </Tabs.Tab>
           <Tabs.Tab
             value="diff"
-            icon={<IconFileDiff size="0.9rem" stroke="1.75" />}
+            icon={<IconFileDiff size="14.4px" stroke="1.75" />}
           >
             Diff
           </Tabs.Tab>

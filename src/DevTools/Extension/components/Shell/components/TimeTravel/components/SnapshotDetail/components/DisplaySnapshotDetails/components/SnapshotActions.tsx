@@ -9,7 +9,7 @@ import { useIsTimeTravelingValue } from '../../../../../atoms';
 
 const commonStyles: ButtonProps['styles'] = {
   leftIcon: {
-    marginRight: '0.325rem',
+    marginRight: '5.2px',
   },
 };
 
@@ -55,9 +55,9 @@ export const SnapshotActions = (props: SnapshotActionsProps) => {
         styles={justRestored ? commonStyles : rotateButtonStyles}
         leftIcon={
           justRestored ? (
-            <IconCircleCheck size="0.8rem" />
+            <IconCircleCheck size="12.8px" />
           ) : (
-            <IconRotate2 size="0.8rem" />
+            <IconRotate2 size="12.8px" />
           )
         }
         disabled={!props.isRestorable || isTimeTraveling || justRestored}

@@ -18,7 +18,7 @@ const reactPanelResizeHandleStyles = {
   },
 };
 const innerContainerStyles: Sx = {
-  borderRadius: '2rem',
+  borderRadius: '32px',
   verticalAlign: 'middle',
 };
 
