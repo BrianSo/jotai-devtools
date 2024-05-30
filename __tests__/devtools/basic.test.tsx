@@ -30,16 +30,16 @@ describe('DevTools - basic', () => {
   it('should be placed on the bottom left by default', async () => {
     customRender(<DevTools />);
     expect(screen.getByTitle('Open Jotai Devtools')).toHaveStyle({
-      bottom: '0.2rem',
-      left: '0.2rem',
+      bottom: '3.2px',
+      left: '3.2px',
     });
   });
 
   it('should respect the position prop', async () => {
     customRender(<DevTools position="top-right" />);
     expect(screen.getByTitle('Open Jotai Devtools')).toHaveStyle({
-      top: '0.2rem',
-      right: '0.2rem',
+      top: '3.2px',
+      right: '3.2px',
       bottom: 'unset',
       left: 'unset',
     });
@@ -50,7 +50,7 @@ describe('DevTools - basic', () => {
 
     // Mantine automatically converts the values to `rem` so we test it in rem
     expect(screen.getByTestId('jotai-devtools-shell')).toHaveStyle({
-      height: 'calc(23.125rem * var(--mantine-scale))',
+      height: 'calc(370px * var(--mantine-scale))',
     });
 
     await act(async () => {
@@ -61,7 +61,7 @@ describe('DevTools - basic', () => {
     });
 
     expect(screen.getByTestId('jotai-devtools-shell')).toHaveStyle({
-      height: 'calc(12.5rem * var(--mantine-scale))',
+      height: 'calc(200px * var(--mantine-scale))',
     });
   });
 

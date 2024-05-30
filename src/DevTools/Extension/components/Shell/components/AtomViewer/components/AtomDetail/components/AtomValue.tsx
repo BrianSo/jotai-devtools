@@ -77,13 +77,13 @@ export const AtomValue = ({
         <Tabs.List>
           <Tabs.Tab
             value="raw-value"
-            leftSection={<IconSourceCode size="0.9rem" stroke="1.75" />}
+            leftSection={<IconSourceCode size="14.4px" stroke="1.75" />}
           >
             Raw value
           </Tabs.Tab>
           <Tabs.Tab
             value="json-tree"
-            leftSection={<IconBinaryTree2 size="0.9rem" stroke="1.75" />}
+            leftSection={<IconBinaryTree2 size="14.4px" stroke="1.75" />}
           >
             Tree view
           </Tabs.Tab>

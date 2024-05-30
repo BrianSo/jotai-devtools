@@ -41,16 +41,16 @@ const ShellTriggerButton = React.forwardRef<
       title="Open Jotai Devtools"
       pos="fixed"
       radius="50%"
-      w="4rem"
-      h="4rem"
+      w="64px"
+      h="64px"
       style={{
         borderWidth: 0,
         zIndex: 99999,
       }}
-      left={position?.includes('left') ? '0.2rem' : 'unset'}
-      right={position?.includes('right') ? '0.2rem' : 'unset'}
-      top={position?.includes('top') ? '0.2rem' : 'unset'}
-      bottom={position?.includes('bottom') ? '0.2rem' : 'unset'}
+      left={position?.includes('left') ? '3.2px' : 'unset'}
+      right={position?.includes('right') ? '3.2px' : 'unset'}
+      top={position?.includes('top') ? '3.2px' : 'unset'}
+      bottom={position?.includes('bottom') ? '3.2px' : 'unset'}
       className={clsx(
         'internal-jotai-devtools-trigger-button',
         'jotai-devtools-trigger-button',

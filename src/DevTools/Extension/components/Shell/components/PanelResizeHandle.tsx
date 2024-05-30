@@ -5,7 +5,7 @@ import { useThemeMode } from '../../../../hooks/useThemeMode';
 import './PanelResizeHandle.css';
 
 const innerContainerStyles: MantineStyleProp = {
-  borderRadius: '2rem',
+  borderRadius: '32px',
   verticalAlign: 'middle',
 };
 
